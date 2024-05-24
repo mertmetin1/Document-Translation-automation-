@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Translator</title>
+</head>
+<body>
+    <h1>File Translator</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".pdf">
+        <label for="target_language">Hedef Dil:</label>
+        <select id="target_language" name="target_language">
+            <option value="tr">Türkçe</option>
+            <option value="en">İngilizce</option>
+            <!-- Diğer hedef diller buraya eklenebilir -->
+        </select>
+        <button type="submit">Dosyayı Yükle ve Çevir</button>
+    </form>
+</body>
+</html>
